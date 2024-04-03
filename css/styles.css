@@ -11,3 +11,64 @@ img {
 html {
   scroll-behavior: smooth;
 }
+.header-info, main{
+  padding: 0 16px;
+}
+
+.overline{
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 0.75rem;
+  letter-spacing: 0.3125rem;
+  color: #6C7289;
+}
+.title{
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1C232B;
+}
+.text{
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 0.875rem;
+  color: #6C7289;
+}
+.price{
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #3D8168;
+}
+.price::before{
+  content: attr(data-currency);
+}
+.old-price{
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 0.8125rem;
+  color: #6C7289;
+  margin: 8px;
+  text-decoration:line-through;
+}
+.old-price::before{
+  content: attr(data-currency);
+}
+.button{
+  width: 295px;
+  height: 48px;
+  background-color: #3D8168;
+  border-radius: 8px;
+}
+.cart{
+  position: absolute;
+
+}
+.button-text{
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  top: 12px;
+}
