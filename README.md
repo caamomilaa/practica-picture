@@ -1,6 +1,6 @@
 # Título del proyecto
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/caamomilaa/practica-picture/main/design/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
@@ -25,9 +25,9 @@ Principalmente, ha usar el atributo data y picture.
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/caamomilaa/practica-picture/main/design/active-states.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/caamomilaa/practica-picture/main/design/desktop-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/caamomilaa/practica-picture/main/design/mobile-design.jpg)
 
 ## Autor ✒️
 
