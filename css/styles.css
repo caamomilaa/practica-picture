@@ -1,74 +1,94 @@
 * {
   box-sizing: border-box;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 a {
+  text-decoration: none;
   color: inherit;
 }
-img {
-  max-width: 100%;
-  display: block;
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
-.header-info, main{
-  padding: 0 16px;
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #6C7289;
+  background-color: #F2EAE2;
 }
 
-.overline{
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-  font-size: 0.75rem;
-  letter-spacing: 0.3125rem;
-  color: #6C7289;
+main{
+  width: 375px;
+  margin-inline: auto;
+  padding: 26px 18px;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+.card{
+  width: 343px;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  border-radius: 10px ;
+  vertical-align: top;
+  padding: 24px ;
 }
 .title{
   font-family: "Fraunces", serif;
-  font-weight: 700;
-  font-size: 2rem;
   color: #1C232B;
-}
-.text{
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-  font-size: 0.875rem;
-  color: #6C7289;
-}
-.price{
-  font-family: "Fraunces", serif;
-  font-weight: 700;
   font-size: 2rem;
+  margin: 0;
+}
+.overline{
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 5px;
+}
+
+.tachado{
+  text-decoration: line-through;
+}
+.bold{
+  font-family: "Fraunces", serif;
   color: #3D8168;
+  font-size: 2rem;
+  margin-right: 19px;
 }
 .price::before{
-  content: attr(data-currency);
-}
-.old-price{
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-  font-size: 0.8125rem;
-  color: #6C7289;
-  margin: 8px;
-  text-decoration:line-through;
-}
-.old-price::before{
-  content: attr(data-currency);
-}
-.button{
-  width: 295px;
-  height: 48px;
-  background-color: #3D8168;
-  border-radius: 8px;
-}
-.cart{
-  position: absolute;
+  content: attr(data-currency)
+} 
 
-}
-.button-text{
+.button{
   position: relative;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 0.875rem;
-  color: #FFFFFF;
-  top: 12px;
+  display: block;
+  padding-block:  0.9375rem;          
+  background-color: #3D8168;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
+.boton-icon{
+  position: absolute;
+  left: 80px;
+}
+@media screen and (width >= 768px) {
+  .card{
+    width: 600px;
+
+  }
+
+  .img, .info-perfume{
+    display: inline-block;
+  }
+  
 }
